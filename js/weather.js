@@ -1,3 +1,5 @@
+const API_KEY = WEATHER_API;
+
 function onGeoOk(position) {
 	const lat = position.coords.latitude;
 	const log = position.coords.longitude;
@@ -9,7 +11,7 @@ function onGeoOk(position) {
 			const city = document.querySelector("#weather span:last-child");
 			city.innerText = data.name;
 			icon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-			weather.innerText = `${~~data.main.temp}°`; //${data.weather[0].main} /
+			weather.innerText = `${~~data.main.temp}°`;
 		})
 	);
 }
