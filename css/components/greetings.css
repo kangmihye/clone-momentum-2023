@@ -8,27 +8,9 @@
 
 #login-form input {
 	padding-bottom: 7px;
-	border: none;
 	width: 360px;
 	height: 40px;
 	font-size: 40px;
-	background-color: transparent;
-	border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
-	color: white;
-	transition: all 0.3s ease-in-out;
-}
-
-#login-form input::placeholder {
-	color: rgba(255, 255, 255, 0.3);
-	transition: color 0.3s ease-in-out;
-}
-
-#login-form input:focus {
-	border-bottom: 0.5px solid white;
-}
-
-#login-form input:focus::placeholder {
-	color: white;
 }
 
 #login-form button {
