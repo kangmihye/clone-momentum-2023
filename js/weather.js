@@ -1,5 +1,8 @@
-const API_KEY = WEATHER_API;
+require("dotenv").config();
 
+const API_KEY = process.env.WEATHER_API;
+
+console.log(WEATHER_API);
 function onGeoOk(position) {
 	const lat = position.coords.latitude;
 	const log = position.coords.longitude;
