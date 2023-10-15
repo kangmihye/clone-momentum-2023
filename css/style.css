@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&display=swap");
+
+@import "reset.css";
+
+@import "components/clock.css";
+@import "components/background.css";
+@import "components/greetings.css";
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	color: white;
+}
 .hidden {
 	display: none;
 }
